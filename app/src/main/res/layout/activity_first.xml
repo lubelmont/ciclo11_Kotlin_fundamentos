@@ -9,19 +9,19 @@
 
 
     <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/username"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-
-        app:layout_constraintBottom_toTopOf="@+id/btnOne"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
         android:layout_marginBottom="32dp"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnOne"
+        android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Push me"
+        android:text="Push mee"
         android:background="@color/purple_200"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
